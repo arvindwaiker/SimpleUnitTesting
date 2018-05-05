@@ -11,4 +11,9 @@ public class CalculatorTest {
         Assert.assertEquals(7,calculator.add(2,5));
         Assert.assertEquals(8,calculator.add(-2,10));
     }
+
+    @Test
+    public void testSub() {
+        Assert.assertEquals(1,calculator.sub(3,2));
+    }
 }
